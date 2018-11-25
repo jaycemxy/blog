@@ -1,0 +1,64 @@
+// Custom styles.
+// 主页文章添加阴影效果
+ .post {
+   margin-top: 60px;
+   margin-bottom: 60px;
+   padding: 25px;
+   -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+   -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+  }
+
+// Custom styles.
+  code {
+    color: #ff7600;
+    background: #fbf7f8;
+    margin: 2px;
+  }
+// 大代码块的自定义样式
+  .highlight, pre {
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  .highlight, code, pre {
+    border: 1px solid #d6d6d6;
+  }
+
+// 文章内链接文本样式
+.post-body p a{
+  color: #0593d3;
+  border-bottom: none;
+  border-bottom: 1px solid #0593d3;
+  &:hover {
+    color: #fc6423;
+    border-bottom: none;
+    border-bottom: 1px solid #fc6423;
+  }
+}
+
+// 自定义的侧栏时间样式
+#days {
+    display: block;
+    color: rgb(7, 179, 155);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+// 自定义页脚跳动的心样式
+@keyframes heartAnimate {
+    0%,100%{transform:scale(1);}
+    10%,30%{transform:scale(0.9);}
+    20%,40%,60%,80%{transform:scale(1.1);}
+    50%,70%{transform:scale(1.1);}
+}
+#heart {
+    animation: heartAnimate 1.33s ease-in-out infinite;
+}
+.with-love {
+    color: rgb(255, 113, 168);
+}
+
+// 自定义的文章摘要图片样式
+img.img-topic {
+    width: 100%;
+}
