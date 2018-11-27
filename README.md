@@ -9,6 +9,7 @@ $ npm install -g hexo-cli
 eg:
 hexo new "my new blog"
 ```
+可以在_config.yml下配置post_asset_folder: true，这样在生成一篇新文章的同时会生成一个同名文件夹，可用来存放该篇博客使用到的图片
 
 生成文章
 ```

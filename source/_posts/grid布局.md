@@ -3,6 +3,7 @@ title: grid布局
 date: 2018-11-25 17:19:31
 tags:
 ---
+<!-- more -->
 ## grid布局术语
 - Grid Container
 设置了 display: grid; 的元素，他是所有grid item的直接父项，如下面的.container
@@ -55,7 +56,7 @@ Grid容器的直接子元素，如下的item，但注意sub-item不是
     }
 </style>
 ```
-![alt text](../images/grid-container.jpeg)
+![image](https://wx3.sinaimg.cn/large/9f1d2bbagy1fxmrerwrfgj21fg13kn0s.jpg)
 
 ### 子元素Grid Items
 ```html
@@ -110,7 +111,7 @@ Grid容器的直接子元素，如下的item，但注意sub-item不是
 </style>
 ```
 最终布局效果如图：
-![alt text](../images/grid-item.jpeg)
+![image](https://ws1.sinaimg.cn/large/9f1d2bbagy1fxmrfa02dcj21iw1y442w.jpg)
 
 ### 行、列间缝隙
 只能在行/列之间创建缝隙，而不能在外部边缘创建。grid-gap是两者的缩写
@@ -142,7 +143,7 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
 }
 ...
 ```
-![alt text](../images/items-center.jpeg)
+![image](https://ws2.sinaimg.cn/large/9f1d2bbagy1fxmrfkohoaj21i81xc78i.jpg)
 
 ### justify-content（网格整体相对于容器居中）
 当网格总大小小于其容器大小时
@@ -161,7 +162,7 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
     ".      main   aside"
     "footer footer footer"
 ```
-![alt text](../images/container-center.jpeg)
+![image](https://wx4.sinaimg.cn/large/9f1d2bbagy1fxmrft0n7nj235c1wsah2.jpg)
 
 ### grid简写、grid-area简写（grid布局最终写法）
 ```css
@@ -197,5 +198,8 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
   grid-column: 1 / 4;
 }
 ```
+
+### 以知乎首页布局为例
+
 
 链接：https://blog.jirengu.com/?p=990
