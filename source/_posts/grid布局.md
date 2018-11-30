@@ -3,6 +3,7 @@ title: grid布局
 date: 2018-11-25 17:19:31
 tags:
 ---
+初学grid布局
 <!-- more -->
 ## grid布局术语
 - Grid Container
@@ -200,6 +201,54 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
 ```
 
 ### 以知乎首页布局为例
+![image](https://ws1.sinaimg.cn/large/9f1d2bbagy1fxmv5c6gowj228212cdpr.jpg)
+我们可以将它看作是两行四列的布局，头部是一行三列的格局
+```html
+<body>
+  <header>
+    <div class="wrapper">I am Wrapper</div>
+  </header>
+  <main></main>
+  <aside></aside>
+</body>
 
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        height: 100vh;
+        display: grid;
+        grid: 50px auto / 1fr 590px 200px 1fr;
+        grid-gap: 10px;
+    }
+    header {
+        background: #eee;
+        grid-column: 1 / 5;
+        grid-row: 1;
+        
+        display: grid;
+        grid: 50px / 1fr 800px 1fr;
+    }
+    .wrapper {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    main {
+        height: 400px;
+        background: #409eff;
+        grid-column: 2;
+        grid-row: 2;
+    }
+    aside {
+        height: 400px;
+        background: #909399;
+        grid-column: 3;
+        grid-row: 2;
+    }
+</style>
+```
+![image](https://ws4.sinaimg.cn/large/9f1d2bbagy1fxmvv47ikgj23ds1y04a2.jpg)
 
 链接：https://blog.jirengu.com/?p=990

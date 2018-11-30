@@ -3,6 +3,7 @@ title: git操作命令
 date: 2018-11-26 11:42:28
 tags: 
 ---
+基础git操作
 <!-- more -->
 ## ssh公钥
 查看本机是否有ssh公钥，通常一个主机对应一个密钥
@@ -18,12 +19,12 @@ $ ssh-keygen
 ```
 
 查看本机ssh公钥
-```
+```bash
 $ cat ~/.ssh/id_rsa.pub
 ```
 
 ## git status查看工作区状态
-```
+```bash
 # git status
 - 存在未跟踪文件
 On branch master
@@ -72,7 +73,7 @@ nothing to commit, working tree clean
 ```
 
 ## 常见操作
-```
+```bash
 # 从已跟踪文件清单中移除（即暂缓区），然后提交
 $ git rm
 
@@ -88,7 +89,7 @@ $ git log -l 3  // l指list，后跟想要查看的历史记录条目数
 ```
 
 ## 撤销上一次的commit
-```
+```bash
 # 查看提交记录，找到上次提交的 commit id
 $ git log
 
