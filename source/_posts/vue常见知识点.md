@@ -126,6 +126,11 @@ v-if适合运行条件不大可能会改变；v-show适合频繁切换
 - hash模式 利用URL中的hash（“#”）
 - history模式 利用 history.pushState API 来完成URL跳转而无须重新加载页面
 
+两种模式的对比：
+- Hash 模式只可以更改 # 后面的内容，History 模式可以通过 API 设置任意的同源 URL
+- History 模式可以通过 API 添加任意类型的数据到历史记录中，Hash 模式只能更改哈希值，也就是字符串
+- Hash 模式无需后端配置且兼容性好。History 模式在用户手动输入地址或者刷新页面的时候会发起 URL 请求，后端需要配置 index.html 页面用于匹配不到静态资源的时候
+
 4、vue-router实现步骤
 <1> 在首页中添加两个script标签导入vue和vue-router
 ```
