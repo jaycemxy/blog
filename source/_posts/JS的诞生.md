@@ -1,0 +1,37 @@
+---
+title: JS的诞生
+date: 2022-03-09 19:35:48
+tags:
+---
+- 李爵士发明了HTML
+- 赖先生发明了CSS
+- 布兰登发明了JS
+
+## JS的诞生
+- 1994年，互联网刚兴起，网景公司（Netscape）发布了Navigator浏览器0.9版，但这个版本的浏览器只能用来浏览，不具备与访问者互动的能力。因此网景公司急需一种网页脚本语言，使得浏览器可以与网页互动。
+- 1995年，Sun公司将Oak语言更名为Java并推向市场，并宣称“Write Once, Run Anywhere”。网景公司深受Java的影响，网景公司高层都非常信赖Java，所以网景公司决定要蹭Java的流量，新开发一门语言，用于浏览器的交互。
+- 1995年4月，BrendanEich（布兰登·艾奇） 加入网景公司，被指定成了“新语言”的设计师，并且要求这个“新语言”要和Java足够的相似（面向对象思想），但是要比Java能够更加简单地上手。Brenden花了10天时间便把这门“新语言”的最初版本设计了出来，命名为JavaScript，对外宣称JavaScript是Java的补充。
+
+```
+基本语法：借鉴C语言和Java语言
+数据结构：借鉴Java语言，包括将值分为原始值和对象两大类
+函数用法：借鉴Schema语言和AWK语言，引入闭包
+原型继承模型：借鉴Self语言
+正则表达式：借鉴Perl语言
+字符串和数组处理：借鉴Python语言
+```
+
+## JS命名
+- 最初为了紧跟Java（有一种咖啡叫Java），这门“新语言”被命名为Mocha（有一种咖啡叫Mocha）
+- 但由于商标的问题，以及网景公司很多产品已经使用了“Live”作为产品名前缀，Mocha更名为LiveScript。
+- 由于网景公司与Sun公司有一些合作，Sun把Java这个商标授权给了网景公司，于是LiveScript更名为JavaScript。
+- Mocha摩卡 => LiveScript => JavaScript
+
+## JavaScript与Java的关系
+- JavaScript的基础语法和对象体系，是模仿Java而设计的。
+- JavaScript语言的函数是一种独立的数据类型以及基于原型对象的继承链，是与java语法最大的两点区别。
+- JavaScript不需要编译，由解释器直接执行。
+
+## JS与ECMAScript的关系
+- ECMAScript是纸上的标准，JS是浏览器的实现
+- 纸上标准往往落后于浏览器，先实现，再写进标准
