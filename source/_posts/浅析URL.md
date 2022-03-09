@@ -8,15 +8,21 @@ tags:
 ![4158026B-FDAA-400D-B35A-C568BEA9F806.png](https://s2.loli.net/2022/03/09/p7I2Hr3CWZuQTom.png)
 
 - 通过改变**路径**可以请求不同的页面
+
 https://developer.mozilla.org/zh-CN/docs/Web/HTML
+
 https://developer.mozilla.org/zh-CN/docs/Web/CSS
 
 - 通过改变**查询参数**可以访问同一个页面不同内容
+
 https://www.baidu.com/s?wd=hello
+
 https://www.baidu.com/s?wd=parent
 
 - 通过改变**锚点**可以看到同一页面同一内容的不同位置
+
 https://developer.mozilla.org/zh-CN/docs/Web/CSS#%E6%95%99%E7%A8%8B#教程
+
 https://developer.mozilla.org/zh-CN/docs/Web/CSS#%E5%8F%82%E8%80%83%E4%B9%A6#参考书
 
 注意：
@@ -34,6 +40,7 @@ IP网际协议（Internet Protocol）也叫域名，是一串字符串，用来�
 ![6A8E48A0-D484-47E6-A982-A91EE7CA601D.png](https://s2.loli.net/2022/03/09/pcKEJ3QUFZBYmuh.png)
 
 使用**nslookup**命令**解析域名**
+
 ![E08CB706-EBF4-4C29-AEE1-E7283D5E4D30.png](https://s2.loli.net/2022/03/09/bBQvkqshZ4CGVnx.png)
 
 ***
